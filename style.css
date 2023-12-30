@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+#container {    
+    column-count: 3;
+    column-gap: 10px;
+    padding: 0 10vw;
+}
+
+#container img {
+    width: 100%;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;    
+}
+
+@media screen and (max-width: 800px) {
+    #container {    
+        column-count: 2;      
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    h1 {
+        font-size: large;
+    }
+
+    #container {    
+        column-count: 1;        
+    }
+  }
